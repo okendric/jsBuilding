@@ -155,6 +155,10 @@ nav {
     .navlinks {
         font-size: 35px;
     }
+
+    .links {
+        display: none;
+    }
 }
 
 
