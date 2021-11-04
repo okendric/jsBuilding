@@ -123,11 +123,11 @@ nav {
     background-color: #ce9bfd;
     height: 50px;
     width: 100%;
+    position: relative;
     bottom: 0;
-    position: absolute;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: end;
 }
 
 .foot {
@@ -137,11 +137,16 @@ nav {
     text-align: center;
 }
 
-
 /* Media query */
 @media screen and (min-width: 800px) {
     .menuIcon {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1125px) {
+    .footer {
+        position: absolute;
     }
 }
 
@@ -150,6 +155,7 @@ nav {
         font-size: 35px;
     }
 }
+
 
 
 
