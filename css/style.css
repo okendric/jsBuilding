@@ -145,6 +145,12 @@ nav {
     }
 }
 
+@media screen and (max-width: 799px){
+    .navlinks {
+        font-size: 35px;
+    }
+}
+
 
 
 
