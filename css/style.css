@@ -48,14 +48,29 @@ nav {
     align-items: center;
     transition: 1s;
     z-index: 98;
-
 }
 
-a {
+.menulink {
     text-decoration: none;
     color: white;
     font-size: 25px;
     font-weight: bold;
+}
+
+/* Navigation links */
+.navlinks {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 70px;
 }
 
 /* Splash screen */
@@ -102,6 +117,26 @@ a {
     width: 350px;
     height: 350px;
 }
+
+/* Footer */
+.footer {
+    background-color: #ce9bfd;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.foot {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
 
 /* Media query */
 @media screen and (min-width: 800px) {
